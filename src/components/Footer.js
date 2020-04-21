@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 function Footer() {
 
     return (
-        <footer className="mt-5">
+        <footer className="mt-5 footers">
             <Container fluid={true}>
                 <div className='footer-text border-top'>
                     <p>© 2020 YesBee  <i className="fab fa-forumbee"></i></p>
