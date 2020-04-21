@@ -2,8 +2,9 @@ import React from 'react';
 
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-
-import Hero from '../components/Hero';
+import Jumbotron from 'react-bootstrap/Jumbotron';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import Content from '../components/Content';
 import Axios from 'axios';
 
@@ -70,7 +71,13 @@ class ContactPage extends React.Component {
     render() {
         return (
             <div>
-                <Hero title={this.props.title} />
+                <Jumbotron className="jumbotron-fluid bg-transparent  p-2">
+                    <Row className="justify-content-center">
+                        <Col md={8} sm={12}>
+                            <p className='about-title'>{this.props.title}</p>
+                        </Col>
+                    </Row>
+                </Jumbotron>
 
                 <Content>
                     <Form onSubmit={this.handleSubmit}>

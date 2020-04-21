@@ -9,9 +9,9 @@ function AboutPage(props) {
     return (
         <div>
             <Jumbotron className="jumbotron-fluid bg-transparent  p-2">
-                <Row className="justify-content-center py-5">
+                <Row className="justify-content-center">
                     <Col md={8} sm={12}>
-                        <h1>{props.title}</h1>
+                        <p className='about-title'>{props.title}</p>
                     </Col>
                 </Row>
             </Jumbotron>

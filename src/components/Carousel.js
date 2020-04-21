@@ -1,8 +1,6 @@
 import React from 'react';
-
 import Card from '../components/Card';
 import Container from 'react-bootstrap/Container';
-import Button from 'react-bootstrap/Button';
 
 class Carousel extends React.Component {
 
@@ -16,7 +14,7 @@ class Carousel extends React.Component {
                     subTitle: 'Corona virus tracker.',
                     imgSrc: 'https://images.unsplash.com/photo-1584378834141-a7e026d31456?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80',
                     link: 'https://mrhelper.netlify.app',
-                    
+
                 },
                 {
                     id: 1,
@@ -44,7 +42,7 @@ class Carousel extends React.Component {
         items[id].selected = items[id].selected ? false : true;
 
         items.forEach(item => {
-            if(item.id !== id) {
+            if (item.id !== id) {
                 item.selected = false;
             }
         });
@@ -63,20 +61,22 @@ class Carousel extends React.Component {
 
 
     render() {
-        return(
-                <Container fluid={true}>
-                    <div className='project-title'>
-                        <p>Projects</p>
-                    </div>
-                <hr/>
-                    <div className='main-card'>
-                        {this.makeItems(this.state.items)}
-                    </div>
-                    <div className='view-more'>
-                        <Button variant="dark">View More on Github.!</Button>
-                    </div>
-                </Container>
-        
+        return (
+            <Container fluid={true}>
+                <div className='project-title'>
+                    <p>Projects</p>
+                </div>
+                <hr />
+                <div className='main-card'>
+                    {this.makeItems(this.state.items)}
+                </div>
+                <div className='button-text'>
+                    <button class="btn btn--2">
+                        <a href="https://www.github.com/saravanansb96">View more on Github   <i class="fab fa-github"></i></a>
+                    </button>
+                </div>
+            </Container>
+
         );
     }
 
