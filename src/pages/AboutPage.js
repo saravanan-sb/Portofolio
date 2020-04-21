@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 function AboutPage(props) {
 
     return (
-        <div>
+        <div className='pad-wrap'>
             <Jumbotron className="jumbotron-fluid bg-transparent  p-2">
                 <Row className="justify-content-center">
                     <Col md={8} sm={12}>

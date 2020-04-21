@@ -70,7 +70,7 @@ class ContactPage extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className='pad-wrap'>
                 <Jumbotron className="jumbotron-fluid bg-transparent  p-2">
                     <Row className="justify-content-center">
                         <Col md={8} sm={12}>

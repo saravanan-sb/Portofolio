@@ -137,7 +137,14 @@ hr {
   font-size: 85px;
 }
 
-
+@media only screen and (max-width: 636px) {
+  .about-title {
+    font-size: 45px;
+  }  
+  .pad-wrap{
+    padding: 15px;
+  }
+}
 /* .g-card-info {
   margin-top: 10px;
   min-height: 100px;
