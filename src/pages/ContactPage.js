@@ -35,14 +35,11 @@ class ContactPage extends React.Component {
 
     handleSubmit = (event) => {
         event.preventDefault();
-
-        console.log(event.target);
-
         this.setState({
             disabled: true
         });
 
-        Axios.post('http://localhost:3030/api/email', this.state)
+        Axios.post('https://portofolioapi.herokuapp.com/api/email', this.state)
             .then(res => {
                 if (res.data.success) {
                     this.setState({
@@ -98,10 +95,12 @@ class ContactPage extends React.Component {
                             <Form.Control id="message" name="message" as="textarea" rows="3" value={this.state.message} onChange={this.handleChange} />
                         </Form.Group>
 
-
-                        <Button className="d-inline-block" variant="primary" type="submit" disabled={this.state.disabled}>
-                            Send
+                        <Form.Group>
+                            <Button variant="primary" type="submit" disabled={this.state.disabled}>
+                                Send
                         </Button>
+                        </Form.Group>
+
 
 
                         {this.state.emailSent === true && <p className="d-inline success-msg">Email Sent</p>}
