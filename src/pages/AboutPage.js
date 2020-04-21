@@ -16,15 +16,14 @@ function AboutPage(props) {
                 </Row>
             </Jumbotron>
             <Content>
-                <p>Hello, my name is Garrett. I'm a full stack engineer with experience in Angular, AngularJS, Express JS, Node JS, Oracle SQL, MongoDB, and React.</p>
+                <p>Hello, my name is Saravanan BS, friends call me YesBee. I'm a full stack developer with experience in Javascript, ReactJs, Express JS, Node JS, Oracle SQL and MongoDB.</p>
 
-                <p>My dream is to one day start my own business and become an entrepreneur (currently working on some ideas).</p>
 
                 <p>I'm constantly learning new things. currently those things include gaining more experience with MongoDB, React, Express JS, and Node JS</p>
 
-                <p>My latest project, Dev Grub, is a cookbook for developers. You can check it out <a href="https://devgrub.com" target="_blank" rel="noopener noreferrer">here</a>, or on the homepage. It is built with Angular, MongoDB, Express JS, and Node JS. However, I will be rebuilding it using React in the coming months</p>
+                <p>My latest projects, are available in my Github. You can check it out <a href="https://www.github.com/saravanansb96" target="_blank" rel="noopener noreferrer">here</a>, or on the homepage. However, I will be building many more applications in the coming months</p>
 
-                <p>When I'm not learning something new chances are I'm creating some YouTube videos. You can find those <a href="http://www.youtube.com/c/GarrettLove1" target="_blank" rel="noopener noreferrer">here</a></p>
+                <p>When I'm not learning something new chances are that I will be reading some book, or hanging out with friends.!</p>
             </Content>
         </div>
     );
