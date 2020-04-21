@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -95,14 +94,7 @@ class ContactPage extends React.Component {
                             <Form.Control id="message" name="message" as="textarea" rows="3" value={this.state.message} onChange={this.handleChange} />
                         </Form.Group>
 
-                        <Form.Group>
-                            <Button variant="primary" type="submit" disabled={this.state.disabled}>
-                                Send
-                        </Button>
-                        </Form.Group>
-
-
-
+                        <button type='submit' className="btn btn-primary" disabled={this.state.disabled}>Send</button>
                         {this.state.emailSent === true && <p className="d-inline success-msg">Email Sent</p>}
                         {this.state.emailSent === false && <p className="d-inline err-msg">Email Not Sent</p>}
                     </Form>

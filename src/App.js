@@ -42,7 +42,7 @@ class App extends React.Component {
         <Container fluid>
 
           <Navbar className='main-nav' expand="lg">
-            <Navbar.Brand className='text-white'>YesBee   <i class="fab fa-forumbee"></i></Navbar.Brand>
+            <Navbar.Brand className='text-white'>YesBee   <i className="fab fa-forumbee"></i></Navbar.Brand>
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">

@@ -424,18 +424,7 @@ hr {
   color: black;
 }
 
-.btn {
-  padding: 2rem 4rem;
-  border: none;
-  border-radius: 8px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.8rem;
-  letter-spacing: 1px;
-  cursor: pointer;
-  transition: all .5s;
-  background: transparent;
-  position: relative;
-}
+
 .btn:focus {
   outline: none;
 }
