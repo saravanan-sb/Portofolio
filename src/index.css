@@ -224,6 +224,12 @@ hr {
     letter-spacing: 2px;
   }
 
+  .profilePic img {
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+  }
+
   .g-card-image {
     border-radius: 10px;
     width: 200px;
