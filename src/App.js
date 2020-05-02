@@ -43,7 +43,7 @@ class App extends React.Component {
 
           <Navbar className='main-nav' expand="lg">
             <Navbar.Brand className='text-white'>YesBee   <i className="fab fa-forumbee"></i></Navbar.Brand>
-            <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
+            <Navbar.Toggle className="border-0 bg-light" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
                 <Link className="nav-link text-white" to="/">Home</Link>
