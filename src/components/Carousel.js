@@ -26,9 +26,9 @@ class Carousel extends React.Component {
                 {
                     id: 2,
                     title: 'Blogger',
-                    subTitle: 'A simple social blogging application.',
+                    subTitle: 'A simple social blogging application using react and node RESTApi.',
                     imgSrc: 'https://images.unsplash.com/photo-1488751045188-3c55bbf9a3fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
-                    link: 'https://mypersonalblogs.herokuapp.com',
+                    link: 'https://median.netlify.com',
                 },
             ]
         }
