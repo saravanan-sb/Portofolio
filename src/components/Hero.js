@@ -13,7 +13,7 @@ function Hero({ profilePic, name }) {
             <Row className="justify-content-center py-5">
                 <Col md={8} sm={12}>
                     <div className='profilePic'>
-                        <img src={profilePic} alt='profile' />
+                        <img src={profilePic} alt='display picture' />
                     </div>
                     <div className='profileName'>
                         <p>{name}</p>
@@ -29,9 +29,9 @@ function Hero({ profilePic, name }) {
                         />
                     </div>
                     <div className="social">
-                        {[{ link: <a href="https://www.linkedin.com/in/saravanan-sb/"><i className="fab fa-linkedin-in"></i></a>, text: 'linkedIn' },
-                        { link: <a href="https://github.com/saravanansb96"><i className="fab fa-github"></i></a>, text: 'Github' },
-                        { link: <a href="https://drive.google.com/uc?export=download&id=1LEombabFo0Dx1MOt7oAkoONd78PHw8yI" download><i class="fas fa-download"></i></a>, text: 'Resume' }].map((placement) => (
+                        {[{ link: <a href="https://www.linkedin.com/in/saravanan-sb/" target="_blank"><i className="fab fa-linkedin-in"></i></a>, text: 'linkedIn' },
+                        { link: <a href="https://github.com/saravanansb96" target="_blank"><i className="fab fa-github"></i></a>, text: 'Github' },
+                        { link: <a href="https://drive.google.com/uc?export=download&id=1J02QNr1iPcm9ms6IvVrbd9PgLc7vFCYD" download><i class="fas fa-download"></i></a>, text: 'Resume' }].map((placement) => (
                             <>
                                 <OverlayTrigger
                                     key={placement.text}

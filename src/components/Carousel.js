@@ -64,7 +64,9 @@ class Carousel extends React.Component {
         return (
             <Container fluid={true}>
                 <div className='project-title'>
-                    <p>Projects</p>
+                    <p>Fun Projects</p>
+                    <div><span className="sub-title">Check About Section for Professional Projects details.</span></div>
+
                 </div>
                 <hr />
                 <div className='main-card'>
@@ -72,7 +74,7 @@ class Carousel extends React.Component {
                 </div>
                 <div className='button-text'>
                     <button class="btn btn--2">
-                        <a href="https://www.github.com/saravanansb96">View more on Github   <i class="fab fa-github"></i></a>
+                        <a href="https://www.github.com/saravanansb96" target="_blank">View more on Github   <i class="fab fa-github"></i></a>
                     </button>
                 </div>
             </Container>

@@ -4,8 +4,6 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import './App.css';
-
-import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
@@ -23,7 +21,7 @@ class App extends React.Component {
         { title: 'Contact', path: '/contact' }
       ],
       home: {
-        profilePic: 'https://media-exp1.licdn.com/dms/image/C5103AQFu7JWRjuKkDg/profile-displayphoto-shrink_200_200/0?e=1593043200&v=beta&t=i1tQ7YR3tsR9BdK4cXqT-Mqw8F-tpGobC5MjL155MuA',
+        profilePic: 'https://i.ibb.co/LP9Kxct/download.png',
         name: 'Saravanan Sb',
       },
       about: {
@@ -59,8 +57,6 @@ class App extends React.Component {
 
 
         </Container>
-        <Footer />
-
       </Router>
     );
   }
